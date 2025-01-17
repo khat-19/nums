@@ -41,7 +41,7 @@ function App() {
                    className="nav-link" 
                    href='#contact' 
                    style={{ cursor: 'pointer' }}>
-                    Hall of fame
+                    Wall of fame
                   </a>
                 </li>
               </ul>

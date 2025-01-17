@@ -7,7 +7,7 @@ function App() {
     <>
     <header id="header" className="header d-flex align-items-right fixed-top" style={{ backgroundColor: '#3E7B27', color: 'blue', }}>
       <div className="container-fluid container-xl position-relative d-flex align-items-center">
-        <img src="src/images/image1.jpg" alt="" style={{ width: '60px', marginLeft: '20px', marginTop: '10px', marginBottom: '10px', borderRadius: '50%' }} />
+        <img src="images/image1.jpg" alt="" style={{ width: '60px', marginLeft: '20px', marginTop: '10px', marginBottom: '10px', borderRadius: '50%' }} />
         <nav className="navbar navbar-expand-sm navbar-dark" style={{ marginLeft: 'auto', }}>
           <div className="container-fluid">
             <button
@@ -32,14 +32,14 @@ function App() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href='#properties' style={{ cursor: 'pointer' }}>
+                  <a className="nav-link" href='#gallery' style={{ cursor: 'pointer' }}>
                     Gallery / Event
                   </a>
                 </li>
                 <li className="nav-item">
                   <a
                    className="nav-link" 
-                   href='#contact' 
+                   href='#walloffame' 
                    style={{ cursor: 'pointer' }}>
                     Wall of fame
                   </a>
